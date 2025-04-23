@@ -1,9 +1,18 @@
 nav {
-    background-color: #b290e9;
+    background-color: #5fabe4;
     padding: 1rem;
     
   }
   
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+  }
+  
+
   ul {
     list-style: none;
     display: flex;

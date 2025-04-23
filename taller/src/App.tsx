@@ -9,13 +9,9 @@ import { useEffect } from 'react'
 
 const App: React.FC = () => {
   
-  useEffect(() => {
-    console.log('Estamos usando useEffect');
-
-  }, []);
 
 return (
-  <div>
+  <div className="App">
       <Router>
         <Nav />
         <Routes>

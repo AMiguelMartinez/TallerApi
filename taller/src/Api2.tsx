@@ -42,7 +42,7 @@ useEffect(() => {
             {db.map((DragonB) => (
                 <div className="card">
             <h1>{DragonB.name}</h1>
-            <img src={DragonB.image} alt={DragonB.name} />
+            <img src={DragonB.image} alt={DragonB.name} width="200" height="200"/>
             <p>{DragonB.affiliation}</p>
             <p>{DragonB.race}</p>
             </div>
